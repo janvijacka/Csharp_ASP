@@ -1,0 +1,16 @@
+﻿@using SchoolWebApp.DTO
+@model IEnumerable<StudentDTO>
+<h2>List of students</h2>
+<a class="btn btn-info my-2" asp-action="Create">Add</a>
+@foreach(var student in Model) {
+    <div class="border border-dark">
+        <h5>@student.FirstName @student.LastName</h5>
+        <p>@student.Id</p>
+        <p>Date of birth: @student.DateOfBirth.ToShortDateString()</p>
+        <a class="btn btn-warning mb-2" asp-action="Update" asp-route-id="@student.Id">Edit</a>
+        <form method="post">
+            <button type="submit" class="btn btn-danger mb-2" asp-action="Delete" asp-route-id="@student.Id">Delete</button>
+        </form>
+    </div>
+}
+
