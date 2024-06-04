@@ -70,7 +70,6 @@ namespace SchoolWebApp.Services {
             //}
             _dbContext.Students.Remove(studentToDelete);
             await _dbContext.SaveChangesAsync();
-
         }
     }
 }

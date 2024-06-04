@@ -5,5 +5,6 @@ namespace SchoolWebApp.Models {
         public ApplicationDbContext(DbContextOptions options) : base(options) {
         }
         public DbSet<Student> Students { get; set; }
+        public DbSet<Subject> Subjects { get; set; }
     }
 }
