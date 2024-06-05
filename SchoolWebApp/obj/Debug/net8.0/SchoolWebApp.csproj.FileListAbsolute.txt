@@ -271,3 +271,4 @@ C:\Users\vijac\Documents\OOP\Csharp_ASP\SchoolWebApp\obj\Debug\net8.0\refint\Sch
 C:\Users\vijac\Documents\OOP\Csharp_ASP\SchoolWebApp\obj\Debug\net8.0\SchoolWebApp.pdb
 C:\Users\vijac\Documents\OOP\Csharp_ASP\SchoolWebApp\obj\Debug\net8.0\SchoolWebApp.genruntimeconfig.cache
 C:\Users\vijac\Documents\OOP\Csharp_ASP\SchoolWebApp\obj\Debug\net8.0\ref\SchoolWebApp.dll
+C:\Kurs\SchoolWebApp\SchoolWebApp\obj\Debug\net8.0\SchoolWebApp.sourcelink.json

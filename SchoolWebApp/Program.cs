@@ -10,6 +10,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => {
     options.UseSqlServer(builder.Configuration.GetConnectionString("SchoolDbConnection"));
 });
 builder.Services.AddScoped<StudentService>();
+builder.Services.AddScoped<SubjectService>();
+builder.Services.AddScoped<GradeService>();
+
 
 
 var app = builder.Build();

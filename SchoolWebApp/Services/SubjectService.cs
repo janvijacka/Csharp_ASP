@@ -74,11 +74,11 @@ namespace SchoolWebApp.Services
 
         internal async Task DeleteAsync(int id)
         {
-            var subjectToDelete = await _dbContext.Students.FirstOrDefaultAsync(subject => subject.Id == id);
+            var subjectToDelete = await _dbContext.Subjects.FirstOrDefaultAsync(subject => subject.Id == id);
             //if (studentToDelete == null) {
             //    return null;
             //}
-            _dbContext.Students.Remove(subjectToDelete);
+            _dbContext.Subjects.Remove(subjectToDelete);
             await _dbContext.SaveChangesAsync();
         }
     }
