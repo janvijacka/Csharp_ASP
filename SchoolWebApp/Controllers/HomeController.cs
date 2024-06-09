@@ -14,8 +14,9 @@ namespace SchoolWebApp.Controllers {
             _userManager = userManager;
         }
         [Authorize]
-        public IActionResult Index() {
-            return View();
+        public async Task<IActionResult> Index() {
+            AppUser signedInUser = await _userManager.GetUserAsync(HttpContext.User);
+            return View("Index", signedInUser.UserName);
         }
 
         public IActionResult Privacy() {

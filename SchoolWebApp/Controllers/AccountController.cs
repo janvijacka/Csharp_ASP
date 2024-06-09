@@ -1,10 +1,12 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.SqlServer.Query.Internal;
 using SchoolWebApp.Models;
 using SchoolWebApp.ViewModels;
 
 namespace SchoolWebApp.Controllers {
+    [Authorize]
     public class AccountController : Controller {
         private UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
@@ -36,6 +38,12 @@ namespace SchoolWebApp.Controllers {
                 ModelState.AddModelError(nameof(login.Username), "Login Failed: Invalid UserName or password");
             }
             return View(login);
+        }
+
+        public async Task<IActionResult> Logout()
+        {
+            _signInManager.SignOutAsync();
+            return RedirectToAction("Index", "Home");
         }
     }
 }
