@@ -13,6 +13,7 @@ namespace SchoolWebApp.Controllers {
             _logger = logger;
             _userManager = userManager;
         }
+
         [Authorize]
         public async Task<IActionResult> Index() {
             AppUser signedInUser = await _userManager.GetUserAsync(HttpContext.User);

@@ -1,8 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using SchoolWebApp.DTO;
 using SchoolWebApp.Services;
 
 namespace SchoolWebApp.Controllers {
+    [Authorize]
     public class StudentsController : Controller {
         public StudentService _studentService;
 
@@ -15,6 +17,7 @@ namespace SchoolWebApp.Controllers {
             return View(allStudents);
         }
 
+        [Authorize(Roles = "Teacher, Admin")]
         public IActionResult Create() {
             return View();
         }
@@ -24,6 +27,7 @@ namespace SchoolWebApp.Controllers {
             return RedirectToAction("Index");
         }
 
+        [Authorize(Roles = "Teacher, Admin")]
         public async Task<IActionResult> UpdateAsync(int id) {
             var studentToEdit = await _studentService.GetByIdAsync(id);
             if (studentToEdit == null) {
@@ -33,12 +37,14 @@ namespace SchoolWebApp.Controllers {
         }
 
         [HttpPost]
+        [Authorize(Roles = "Teacher, Admin")]
         public async Task<IActionResult> Update(StudentDTO studentDTO, int id) {
             await _studentService.UpdateAsync(id, studentDTO);
             return RedirectToAction("Index");
         }
 
         [HttpPost]
+        [Authorize(Roles = "Teacher, Admin")]
         public async Task<IActionResult> Delete (int id) {
             var studentToDelete = await _studentService.GetByIdAsync(id);
             if (studentToDelete == null) {

@@ -30,7 +30,7 @@ namespace SchoolWebApp.Controllers {
                 AppUser appUser = await _userManager.FindByNameAsync(login.Username);
                 if (appUser != null) {
                     await _signInManager.SignOutAsync();
-                    Microsoft.AspNetCore.Identity.SignInResult result = await _signInManager.PasswordSignInAsync(appUser, login.Password, false, false);
+                    Microsoft.AspNetCore.Identity.SignInResult result = await _signInManager.PasswordSignInAsync(appUser, login.Password, login.RememberMe, false);
                     if (result.Succeeded) {
                         return Redirect(login.ReturnUrl ?? "/"); //?? zkrácené testování na null
                     }
@@ -44,6 +44,10 @@ namespace SchoolWebApp.Controllers {
         {
             _signInManager.SignOutAsync();
             return RedirectToAction("Index", "Home");
+        }
+
+        public IActionResult AccessDenied() {
+            return View();
         }
     }
 }

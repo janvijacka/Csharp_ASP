@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using SchoolWebApp.Models;
 using SchoolWebApp.ViewModels;
 
 namespace SchoolWebApp.Controllers {
+    [Authorize(Roles = "Admin")]
     public class UsersController : Controller {
         private UserManager<AppUser> _userManager;
         private IPasswordHasher<AppUser> _passwordHasher;
