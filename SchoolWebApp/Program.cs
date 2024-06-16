@@ -8,7 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationDbContext>(options => {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("SchoolDbConnection"));
+    //options.UseSqlServer(builder.Configuration.GetConnectionString("SchoolDbConnection"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("AzureDbConnection"));
 });
 builder.Services.AddScoped<StudentService>();
 builder.Services.AddScoped<SubjectService>();
@@ -33,6 +34,7 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment()) {
     app.UseExceptionHandler("/Home/Error");
+    app.UseDeveloperExceptionPage();
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
