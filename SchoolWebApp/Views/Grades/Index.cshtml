@@ -2,19 +2,26 @@
 @model IEnumerable<GradesViewModel>
 <h1>List of all grades</h1>
 <div>
-    <a class="btn btn-info" asp-controller="Grades" asp-action="Create">Add a new grade</a>
+    <a class="btn btn-secondary" asp-controller="Grades" asp-action="Create">Add a new grade</a>
 </div>
 <hr />
 @foreach (var item in Model) {
-    <div class="border border-1 border-dark">
+    <div>
         <p>@item.StudentName </p>
         <p>
             @item.SubjectName: @item.Topic - @item.Mark <br>
             @item.Date.ToShortDateString()
         </p>
-        <a class="btn btn-warning mb-2 ms-2" asp-controller="Grades" asp-action="Update" asp-route-id="@item.Id">Edit</a>
-        <form method="post">
-            <button class="btn btn-danger mb-2 ms-2" asp-controller="Grades" asp-route-id="@item.Id" asp-action="Delete">Delete</button>
-        </form>
+        <div class="row justify-content-start">
+            <div class="col-auto">
+                <a class="btn btn-warning mb-2 ms-2" asp-controller="Grades" asp-action="Update" asp-route-id="@item.Id">Edit</a>
+            </div>
+            <div class="col-auto">
+                <form method="post">
+                    <button class="btn btn-danger mb-2 ms-2" asp-controller="Grades" asp-route-id="@item.Id" asp-action="Delete">Delete</button>
+                </form>
+            </div>
+        </div>
+        <hr />
     </div>
 }

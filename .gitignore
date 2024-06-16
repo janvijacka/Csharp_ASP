@@ -1,2 +1,16 @@
+# Ignore NuGet packages directory
+/bin/
+/obj/
+
+# Ignore Visual Studio files
 .vs/
-SchoolWebApp/obj/
+
+# Ignore user-specific files
+*.suo
+*.user
+
+# Ignore environment-based configuration
+/appsettings.json
+/appsettings.Development.json
+/appsettings.Production.json
+

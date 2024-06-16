@@ -6,22 +6,29 @@
     <form method="post" enctype="multipart/form-data" asp-action="Upload" asp-controller="FileUpload">
         <div class="form-group">
             <input type="file" name="file"/>
-            <input class="btn btn-primary" type="submit" value="Upload" />
+            <input class="btn btn-secondary" type="submit" value="Upload" />
         </div>
     </form>
     
-    <a class="btn btn-info my-2" asp-action="Create">Add</a>
+    <a class="btn btn-secondary my-2" asp-action="Create">Add</a>
 }
 @foreach(var student in Model) {
-    <div class="border border-dark">
+    <div>
         <h5>@student.FirstName @student.LastName</h5>
         <p>@student.Id</p>
         <p>Date of birth: @student.DateOfBirth.ToShortDateString()</p>
         @if (User.Identity.IsAuthenticated && (User.IsInRole("Admin")||User.IsInRole("Teacher"))) {
-            <a class="btn btn-warning mb-2" asp-action="Update" asp-route-id="@student.Id">Edit</a>
-            <form method="post">
-                <button type="submit" class="btn btn-danger mb-2" asp-action="Delete" asp-route-id="@student.Id">Delete</button>
-            </form>
+            <div class="row justify-content-start">
+                <div class="col-auto">
+                        <a class="btn btn-warning mb-2" asp-action="Update" asp-route-id="@student.Id">Edit</a>
+                </div>
+                <div class="col-auto">
+                    <form method="post">
+                        <button type="submit" class="btn btn-danger mb-2" asp-action="Delete" asp-route-id="@student.Id">Delete</button>
+                    </form>
+                </div>
+            </div>
+            <hr />
         }
     </div>
 }

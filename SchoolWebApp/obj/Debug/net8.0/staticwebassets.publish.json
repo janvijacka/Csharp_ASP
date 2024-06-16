@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "Hash": "5CZJngx0lOn7kWvR6JH7SkgYX/DkfZ7IV19JEDHBNyQ=",
+  "Hash": "oymyZwmg7lybGXniCS3+frmAtPwf2N5iRDVjvVY2im8=",
   "Source": "SchoolWebApp",
   "BasePath": "_content/SchoolWebApp",
   "Mode": "Default",
-  "ManifestType": "Build",
+  "ManifestType": "Publish",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {

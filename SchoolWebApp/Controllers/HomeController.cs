@@ -20,7 +20,7 @@ namespace SchoolWebApp.Controllers {
             return View("Index", signedInUser.UserName);
         }
 
-        public IActionResult Privacy() {
+        public IActionResult Info() {
             return View();
         }
 
