@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Kurs\\SchoolWebApp\\SchoolWebApp\\SchoolWebApp.csproj": {}
+    "C:\\Users\\vijac\\Documents\\OOP\\Csharp_ASP\\SchoolWebApp\\SchoolWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Kurs\\SchoolWebApp\\SchoolWebApp\\SchoolWebApp.csproj": {
+    "C:\\Users\\vijac\\Documents\\OOP\\Csharp_ASP\\SchoolWebApp\\SchoolWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Kurs\\SchoolWebApp\\SchoolWebApp\\SchoolWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\vijac\\Documents\\OOP\\Csharp_ASP\\SchoolWebApp\\SchoolWebApp.csproj",
         "projectName": "SchoolWebApp",
-        "projectPath": "C:\\Kurs\\SchoolWebApp\\SchoolWebApp\\SchoolWebApp.csproj",
-        "packagesPath": "C:\\Users\\programator\\.nuget\\packages\\",
-        "outputPath": "C:\\Kurs\\SchoolWebApp\\SchoolWebApp\\obj\\",
+        "projectPath": "C:\\Users\\vijac\\Documents\\OOP\\Csharp_ASP\\SchoolWebApp\\SchoolWebApp.csproj",
+        "packagesPath": "C:\\Users\\vijac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vijac\\Documents\\OOP\\Csharp_ASP\\SchoolWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\programator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vijac\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -85,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -9,111 +9,111 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SchoolWebApp
 build_property.RootNamespace = SchoolWebApp
-build_property.ProjectDir = C:\Kurs\SchoolWebApp\SchoolWebApp\
+build_property.ProjectDir = C:\Users\vijac\Documents\OOP\Csharp_ASP\SchoolWebApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Kurs\SchoolWebApp\SchoolWebApp
+build_property.MSBuildProjectDirectory = C:\Users\vijac\Documents\OOP\Csharp_ASP\SchoolWebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Kurs/SchoolWebApp/SchoolWebApp/Views/Account/Login.cshtml]
+[C:/Users/vijac/Documents/OOP/Csharp_ASP/SchoolWebApp/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Kurs/SchoolWebApp/SchoolWebApp/Views/Grades/Create.cshtml]
+[C:/Users/vijac/Documents/OOP/Csharp_ASP/SchoolWebApp/Views/Grades/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZGVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Kurs/SchoolWebApp/SchoolWebApp/Views/Grades/Index.cshtml]
+[C:/Users/vijac/Documents/OOP/Csharp_ASP/SchoolWebApp/Views/Grades/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZGVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Kurs/SchoolWebApp/SchoolWebApp/Views/Grades/Update.cshtml]
+[C:/Users/vijac/Documents/OOP/Csharp_ASP/SchoolWebApp/Views/Grades/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZGVzXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Kurs/SchoolWebApp/SchoolWebApp/Views/Home/Index.cshtml]
+[C:/Users/vijac/Documents/OOP/Csharp_ASP/SchoolWebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Kurs/SchoolWebApp/SchoolWebApp/Views/Home/Privacy.cshtml]
+[C:/Users/vijac/Documents/OOP/Csharp_ASP/SchoolWebApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Kurs/SchoolWebApp/SchoolWebApp/Views/Role/Create.cshtml]
+[C:/Users/vijac/Documents/OOP/Csharp_ASP/SchoolWebApp/Views/Role/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Kurs/SchoolWebApp/SchoolWebApp/Views/Role/Index.cshtml]
+[C:/Users/vijac/Documents/OOP/Csharp_ASP/SchoolWebApp/Views/Role/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Kurs/SchoolWebApp/SchoolWebApp/Views/Role/Update.cshtml]
+[C:/Users/vijac/Documents/OOP/Csharp_ASP/SchoolWebApp/Views/Role/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Kurs/SchoolWebApp/SchoolWebApp/Views/Shared/AccessDenied.cshtml]
+[C:/Users/vijac/Documents/OOP/Csharp_ASP/SchoolWebApp/Views/Shared/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFjY2Vzc0RlbmllZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Kurs/SchoolWebApp/SchoolWebApp/Views/Shared/Error.cshtml]
+[C:/Users/vijac/Documents/OOP/Csharp_ASP/SchoolWebApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Kurs/SchoolWebApp/SchoolWebApp/Views/Shared/NotFound.cshtml]
+[C:/Users/vijac/Documents/OOP/Csharp_ASP/SchoolWebApp/Views/Shared/NotFound.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE5vdEZvdW5kLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Kurs/SchoolWebApp/SchoolWebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/vijac/Documents/OOP/Csharp_ASP/SchoolWebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Kurs/SchoolWebApp/SchoolWebApp/Views/Students/Create.cshtml]
+[C:/Users/vijac/Documents/OOP/Csharp_ASP/SchoolWebApp/Views/Students/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Kurs/SchoolWebApp/SchoolWebApp/Views/Students/Index.cshtml]
+[C:/Users/vijac/Documents/OOP/Csharp_ASP/SchoolWebApp/Views/Students/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Kurs/SchoolWebApp/SchoolWebApp/Views/Students/Update.cshtml]
+[C:/Users/vijac/Documents/OOP/Csharp_ASP/SchoolWebApp/Views/Students/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Kurs/SchoolWebApp/SchoolWebApp/Views/Subjects/Create.cshtml]
+[C:/Users/vijac/Documents/OOP/Csharp_ASP/SchoolWebApp/Views/Subjects/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Kurs/SchoolWebApp/SchoolWebApp/Views/Subjects/Index.cshtml]
+[C:/Users/vijac/Documents/OOP/Csharp_ASP/SchoolWebApp/Views/Subjects/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Kurs/SchoolWebApp/SchoolWebApp/Views/Subjects/Update.cshtml]
+[C:/Users/vijac/Documents/OOP/Csharp_ASP/SchoolWebApp/Views/Subjects/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Kurs/SchoolWebApp/SchoolWebApp/Views/Users/Create.cshtml]
+[C:/Users/vijac/Documents/OOP/Csharp_ASP/SchoolWebApp/Views/Users/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Kurs/SchoolWebApp/SchoolWebApp/Views/Users/Index.cshtml]
+[C:/Users/vijac/Documents/OOP/Csharp_ASP/SchoolWebApp/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Kurs/SchoolWebApp/SchoolWebApp/Views/Users/Update.cshtml]
+[C:/Users/vijac/Documents/OOP/Csharp_ASP/SchoolWebApp/Views/Users/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Kurs/SchoolWebApp/SchoolWebApp/Views/_ViewImports.cshtml]
+[C:/Users/vijac/Documents/OOP/Csharp_ASP/SchoolWebApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Kurs/SchoolWebApp/SchoolWebApp/Views/_ViewStart.cshtml]
+[C:/Users/vijac/Documents/OOP/Csharp_ASP/SchoolWebApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Kurs/SchoolWebApp/SchoolWebApp/Views/Shared/_Layout.cshtml]
+[C:/Users/vijac/Documents/OOP/Csharp_ASP/SchoolWebApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-qgw9gjujsz
